@@ -44,7 +44,8 @@ a{
 }
 input{
     width: 350px;
-    border-radius: 25px;
+    border-radius: 15px;
     border: none;
     font-size: medium;
+    outline: none;
 }
