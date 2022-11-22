@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="task1.js"></script>
-    <title>Task3</title>
-</head>
-<body>
-    <h1>KMIT</h1>
-    <p id="txt" style="font-weight: bold;font-size:medium"></p>
-    <button type="button" onclick="myFunction()" >Click</button>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Site</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="task1.css">
+    </head>
+    <body>
+        <div>
+            <video autoplay muted loop id="myVideo">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div>
+                <a class="navbar-brand" href="#" style="color:white;">EDU MEETING</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" style="color:#f5a425;">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">MEETINGS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">APPLY NOW</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PAGES
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index:100;">
+                      <li><a class="dropdown-item" href="#">UPCOMING MEETINGS</a></li>
+                      <li><a class="dropdown-item" href="#">MEETING DETAILS</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">COURSES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="p1">HELLO STUDENTS</div>
+        <div class="p2">WELCOME TO EDUCATION</div>
+        <p class="p3">This is an edu meeting HTML CSS template provided by TemplateMo website. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by Pressmaster.</p>
+    </body>
 </html>

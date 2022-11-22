@@ -1,0 +1,77 @@
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    left:0;
+    opacity:0.5;
+    width:100%;
+    z-index:0;
+}
+
+.dropdown-menu{
+    z-index:200;
+}
+nav{
+    background-color: rgba(27,29,30,0.15);
+}
+body{
+    background-color:black;
+    font-family: Poppins;
+}
+.navbar-nav{
+    flex:1;
+    display:flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+nav{
+    height:100px;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:white;
+}
+.nav-item{
+    padding: 0px 7px;
+}
+.nav-link:hover{
+    color:#f5a425;
+}
+.nav-item:active{
+    color:#f5a425;
+}
+.p1{
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:white;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+.p2{
+    position: relative;
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color:white;
+    margin: 20px 0px;
+    margin-left: 65px;
+}
+.p3{
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    width:570px;
+    margin-left: 65px;
+}
