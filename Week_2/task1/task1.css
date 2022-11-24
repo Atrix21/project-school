@@ -1,4 +1,4 @@
-#myVideo {
+#back_drop {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -74,4 +74,12 @@ nav{
     font-size: 14px;
     width:570px;
     margin-left: 65px;
+}
+.b1{
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    outline: none;
+    size: 5px;
+    margin-top: 10px;
 }
