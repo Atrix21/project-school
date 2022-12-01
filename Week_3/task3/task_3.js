@@ -15,4 +15,5 @@ let tableArr = [["Group Id", "Project Name"],["G6", "Develop a Software for Cate
             }
             t1.appendChild(t2);
             document.body.appendChild(t1);
+            t1.style.borderCollapse="collapse";
             t1.setAttribute("border","1");
