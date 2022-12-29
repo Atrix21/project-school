@@ -1,5 +1,5 @@
 const fifa_scorers= [
-    { name: "Kylian Mbappe" },
+    { name: "Mbappe" },
     { name: "Messi" },
     { name: "Olivier" },
     { name: "Julain" },
